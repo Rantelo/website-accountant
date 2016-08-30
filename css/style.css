@@ -20,14 +20,58 @@ p {
 }
 
 .parallax-container {
-  min-height: 380px;
+  min-height: 700px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
 }
-  .parallax-container .section {
-    width: 100%;
-  }
+.parallax-container .section {
+  width: 100%;
+}
+.parallax-shadowed {
+  background-color: black;
+}
+.parallax-shadowed img {
+  opacity: 0.4;
+}
+
+#servicios .row {
+  height: 160px;
+  padding: 6px;
+}
+.service-box {
+  height: 160px;
+  background: rgba(99,99,99,.38);
+  padding: 6px;
+  display: flex;
+}
+
+.service-icon {
+  margin: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.service-text {
+  margin: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.service-text h3 {
+  font-size: 22px;
+  margin: 4px 0;
+  font-weight: 200;;
+}
+
+.service-text p {
+  font-size: 16px;
+  margin: 0;
+  font-weight: 100;;
+  line-height: 1.7rem;
+}
+
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
