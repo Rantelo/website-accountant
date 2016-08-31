@@ -72,11 +72,50 @@ p {
   line-height: 1.7rem;
 }
 
+.testimonio-box {
+  padding: 10px;  
+}
+.testimonio-text {
+  font-style: italic;
+  font-size: 1.4em;
+  color: #808080;
+  font-weight: 300;
+}
+.testimonio-client {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.tc-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+}
+.tc-name {
+  width: 150px;
+}
+.tc-name .name {
+  color: #808080;
+  line-height: 30px;
+  margin: 0px;
+  font-size: 1.2em;
+  display: inline-block;
+  font-weight: 300;
+}
+.tc-name .job {
+  color: #ababab;
+  line-height: 15px;
+  margin: 0px;
+  font-weight: 100;
+  font-size: 0.9em;
+  display: inline-block;
+}
+
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
-    top: 40%;
+    /*top: 40%;*/
   }
   #index-banner .section {
     top: 10%;
