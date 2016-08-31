@@ -120,6 +120,18 @@ p {
   #index-banner .section {
     top: 10%;
   }
+  .testimonio-box {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+  }
+  .testimonio-text {
+    margin-right: 15px;
+  }
+  .tc-img {
+    margin-right: 10px
+  }
 }
 
 @media only screen and (max-width : 600px) {
