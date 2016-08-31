@@ -138,6 +138,21 @@ p {
   #index-banner .section {
     top: 0;
   }
+  .testimonio-box {
+    display: flex;
+    flex-direction: column;
+  }
+  .testimonio-text {
+    font-style: italic;
+    font-size: 1.4em;
+    color: #808080;
+    font-weight: 300;
+  }
+  .testimonio-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+  }
 }
 
 .icon-block {
