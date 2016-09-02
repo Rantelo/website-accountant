@@ -5,7 +5,7 @@ var submitted= false;
     $('.button-collapse').sideNav();
     $('.parallax').parallax();
     $('#gform').on('submit', function(e) {
-      $('#gform').prepend('Your submission has been processed...');
+      $('#gform').prepend('¡Gracias por escribirme! Me pondré en contacto contigo pronto');
     });
   }); // end of document ready
 })(jQuery); // end of jQuery name space
