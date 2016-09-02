@@ -24,6 +24,25 @@ p {
   height: auto;
   color: rgba(255,255,255,.9);
 }
+#inicio .card-title {
+  color: #444;
+  font-weight: 400;
+}
+#inicio .card {
+  background-color: rgba(220,220,220,.65);
+}
+#inicio label{
+  color: #444;
+}
+#inicio textarea{
+  border-bottom: 1px solid #444;
+  color: #444;
+}
+#inicio input{
+  border-bottom: 1px solid #444;
+  color: #444;
+}
+
 #servicios.parallax-container {
   min-height: 700px;
   line-height: 0;
