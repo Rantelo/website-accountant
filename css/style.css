@@ -206,6 +206,11 @@ p {
   }
 }
 
+@media only screen and (max-width: 400px) {
+  #servicios.parallax-container {
+    min-height: 1300px;
+  }
+}
 .icon-block {
   padding: 0 15px;
 }
