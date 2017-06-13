@@ -43,12 +43,6 @@ p {
   color: #444;
 }
 
-#servicios.parallax-container {
-  min-height: 700px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
-}
 .parallax-container .section {
   width: 100%;
 }
@@ -59,14 +53,17 @@ p {
   opacity: 0.4;
 }
 
-#servicios .row {
-  height: 160px;
-  padding: 6px;
+#servicios.parallax-container {
+  min-height: 700px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,0.95);
 }
 .service-box {
   height: 160px;
-  background: rgba(99,99,99,.38);
+  background: rgba(39, 36, 36, 0.38);
   padding: 6px;
+  margin: 6px;
   display: flex;
 }
 
@@ -170,7 +167,14 @@ p {
     margin-right: 15px;
   }
   .tc-img {
-    margin-right: 10px
+    margin-right: 10px;
+  }
+  #servicios.parallax-container {
+    min-height: 900px;
+  }
+  #servicios .service-box {
+    height: auto;
+    padding: 6px;
   }
 }
 
@@ -192,6 +196,13 @@ p {
     width: 70px;
     height: 70px;
     border-radius: 35px;
+  }
+  #servicios.parallax-container {
+    min-height: 1000px;
+  }
+  #servicios .service-box {
+    height: auto;
+    padding: 6px;
   }
 }
 
